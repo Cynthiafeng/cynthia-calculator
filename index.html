@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>Calculator</title>
+     <link rel="stylesheet" href="calc.css">
+ </head>
+
+ <body>
+<div class="calculator">
+
+  <div class="display" id="display">0</div>
+<div class="wrapper">
+  <button onclick="btn(this)" class="inactive" id="clear">AC</button>
+  <button class="inactive">+/-</button>
+  <button onclick="btn(this)" class="inactive">%</button>
+  <button onclick="btn(this)" class="operator" id="divide">÷</button>
+
+  <button onclick="btn(this)" class="num">7</button>
+  <button onclick="btn(this)" class="num">8</button>
+  <button onclick="btn(this)" class="num">9</button>
+  <button onclick="btn(this)" class="operator">*</button>
+
+  <button onclick="btn(this)" class="num">4</button>
+  <button onclick="btn(this)" class="num">5</button>
+  <button onclick="btn(this)" class="num">6</button>
+  <button onclick="btn(this)" class="operator">-</button>
+
+  <button onclick="btn(this)" class="num">1</button>
+  <button onclick="btn(this)" class="num">2</button>
+  <button onclick="btn(this)" class="num">3</button>
+  <button onclick="btn(this)" class="operator">+</button>
+
+  <button onclick="btn(this)" id="zero" class="num">0</button>
+  <button onclick="btn(this)" class="num" >.</button>
+  <button onclick="btn(this)" class="operator" id="equal">=</button>
+  </div>
+</div>
+<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
