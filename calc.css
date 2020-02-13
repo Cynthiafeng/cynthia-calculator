@@ -8,6 +8,7 @@ body {
   font-size: 80pt;
   text-align: right;
   padding-right: 25px;
+    overflow: hidden;
 }
 
 .calculator {
