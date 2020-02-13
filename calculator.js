@@ -12,7 +12,7 @@ var display = document.getElementById('display');
             display.innerHTML = '0';
             //reset
              
-        } else if (inp == '÷') {
+        } else if (inp == '<img src="divideicon_divide.png">') {
             //change divide symbol
             display.innerHTML += '/';
             //still can't get the displayed symbol to change without breaking it

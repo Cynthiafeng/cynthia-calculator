@@ -26,6 +26,10 @@ button {
   margin: 5px;
 }
 
+img {
+    width: 20px;
+}
+
 .inactive {
   background-color: #A6A6A6;
 }
